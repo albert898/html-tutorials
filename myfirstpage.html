@@ -3,7 +3,11 @@
 <html>
     
 <head>
+    
     <title>My first web page</title>
+
+    <!-- Comment Example -->
+
 </head>
 
 <body>
@@ -11,7 +15,11 @@
     <h1>My first web page</h1>
 
     <h2>What this is</h2>
-    <p>A simple page put together using HTML</p>
+    <p>
+        A simple page put together using HTML. <em>I said a simple page put together using HTML.</em>
+        A simple page put together using HTML. A simple page put together using HTML. A simple page put
+        together using HTML. A simple page put together using HTML. A simple page put together using HTML.
+    </p>
 
     <img src="images/HTML5.png" width="120" height="90" alt="HTML Logo">
 
@@ -31,7 +39,7 @@
     </ul>
 
     <h2>Where to find the tutorial</h2>
-    <p><a href="http://www.htmldog.com">HTML Dog</a></p>
+    <p><a href="http://www.htmldog.com"><img src="http://www.htmldog.com/badgel.gif" width="120" height="90" alt="HTML Dog"></a></p>
 
     <h2>Table Example</h2>
     <table>
@@ -59,17 +67,25 @@
     </table>
 
     <h2>Forms example</h2>
-    <input type="text">
-    <input type="password">
-    <input type="checkbox">
-    <input type="radio">
-    <input type="submit">
-    <textarea rows="5" cols="20">A big load of text</textarea>
-    <select>
-        <option>Option 1</option>
-        <option>Option 2</option>
-        <option value="third option">Option 3</option>
-    </select>
+    <p><strong>Note:</strong> It looks the part, but it won't do anything.</p>
+
+    <form action="csharpscript.cs" method="post">
+
+    <p>Name:</p>
+    <p><input name="name" value="Your name"></p>
+
+    <p>Comments:</p>
+    <p><textarea rows="10" cols="20" name="comments">Your Comments</textarea></p>
+
+    <p>Are you:</p>
+    <p><input type="radio" name="areyou" value="happy">Happy</p>
+    <p><input type="radio" name="areyou" value="sad">Sad</p>
+    <p><input type="radio" name="areyou" value="angry">Angry</p>
+
+    <p><input type="submit"></p>
+
+    </form>
+
 </body>
 
 </html>
